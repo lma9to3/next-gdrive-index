@@ -50,7 +50,7 @@ const config: z.input<typeof Schema_Config> = {
      * You need to create a new folder and share it with the service account
      * Then, copy the folder id and paste it here
      */
-    rootFolder: "a9c1aa08825bf61c13c9225182571f274f2844653e3d0ceec53af416ec0296f8006a8df1740401ade440cadc4ce2fa6a",
+    rootFolder: "2eb9d0df6a1bc314d76b3038f59595910602bc8c547ea31302e3e4538ea7d258fbe2f50069e8180b654e7c840b970c79",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -139,7 +139,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * @default: false
      */
-    allowDownloadProtectedFile: false,
+    allowDownloadProtectedFile: true,
 
     /**
      * Duration in hours.
@@ -166,7 +166,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * @default: 4MB
      */
-    maxFileSize: 0,
+    maxFileSize: 4194304,
 
     /**
      * Only show preview for files that are smaller than this size
@@ -181,7 +181,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * @default: 100MB
      */
-    streamMaxSize: 0,
+    streamMaxSize: 104857600,
   },
 
   siteConfig: {
@@ -193,7 +193,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can set it to undefined if you don't want to use it
      */
-    siteName: "next-gdrive-index",
+    siteName: "lma9to3s drive",
     siteNameTemplate: "%s - %t",
     siteDescription: "A Google Drive Index built using Next.js",
 
@@ -208,7 +208,7 @@ const config: z.input<typeof Schema_Config> = {
      * Both are used on metadata
      * Affects the value of footer
     */
-    siteAuthor: "lma9o3",
+    siteAuthor: "lma9to3",
     twitterHandle: "",
 
     /**
@@ -227,7 +227,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * @default: false
      */
-    showFileExtension: true,
+    showFileExtension: false,
 
     /**
      * Footer content
