@@ -50,7 +50,7 @@ const config: z.input<typeof Schema_Config> = {
      * You need to create a new folder and share it with the service account
      * Then, copy the folder id and paste it here
      */
-    rootFolder: "55b240945d8e4428cd02f1dbba68c195956e6fdb9dee4765346c992e26db5475e4ee5674f6bc7fdccc9cc194237d0735",
+    rootFolder: "2edfc9ba2b12feafb982f175d7e9800bf473e189fd00429e468f57b93123a7626a54b5e6956460bcdf3d0bb08d2c28bd",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
